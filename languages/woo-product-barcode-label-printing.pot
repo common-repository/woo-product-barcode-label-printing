@@ -1,0 +1,364 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Barcode Label Printing 2.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-31 21:02+0300\n"
+"PO-Revision-Date: 2020-05-12 04:53+0300\n"
+"Last-Translator: \n"
+"Language-Team: Wooaddons\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2;translate_nooped_plural\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/functions.php:40
+msgid ""
+"Woolabel Premium Plugin is now available for purchase! Grab your copy today! "
+"Read what new features it has, <a href=\"https://woolabel.com/?"
+"affiliate_id=woolabel_free\">click here</a>"
+msgstr ""
+
+#: inc/functions.php:41 inc/functions.php:50
+msgid "Dismiss"
+msgstr ""
+
+#: inc/functions.php:49
+msgid ""
+"If you like our plugin please leave a <a href=\"https://wordpress.org/"
+"support/plugin/woo-product-barcode-label-printing/reviews/#new-post"
+"\">feedback</a>"
+msgstr ""
+
+#: inc/generator.php:40
+msgid "Woolabel Generator"
+msgstr ""
+
+#: inc/generator.php:79
+msgid "Popup for Printing"
+msgstr ""
+
+#: inc/generator.php:80
+msgid "Labels for selected products:"
+msgstr ""
+
+#: inc/generator.php:143
+msgid "No products..."
+msgstr ""
+
+#: inc/generator.php:146
+msgid "Security error!"
+msgstr ""
+
+#: inc/generator.php:151
+msgid "Select Products"
+msgstr ""
+
+#: inc/generator.php:188
+msgid "No products found!"
+msgstr ""
+
+#: inc/generator.php:192
+#, php-format
+msgid ""
+"Buy WooLabel Premium to unlock all features including search feature and "
+"print unlimited labels. Product variations in the sentence on WooLabel free. "
+"<a href=\"%s\">Click Here</a>"
+msgstr ""
+
+#: inc/generator.php:196
+msgid "Generate selected products"
+msgstr ""
+
+#: inc/info.php:12
+msgid "Woolabel Information Page"
+msgstr ""
+
+#: inc/info.php:15
+msgid ""
+"This plugin works best if your SKU's are numbers only. Please download and "
+"use Boosters AUTO Generate Plugin feature to make your SKU's numbers only."
+msgstr ""
+
+#: inc/info.php:19
+msgid ""
+"This plugin has been created for Zebra Direct Thermal Printers. Which is a "
+"continuous feed label printer. The labels I use are 45x20mm and have 3mm "
+"gaps between them on a continuous single roll. You can buy them on websites "
+"like amazon and office supply shops."
+msgstr ""
+
+#: inc/info.php:23
+msgid ""
+"The plugins default settings are the same settings I use for my 45x20mm "
+"labels. If you use bigger or smaller labels. Start with adjusting the width "
+"and height settings only. Also remember to check the Zebra utilities "
+"settings are the same as the size of the labels you are using."
+msgstr ""
+
+#: inc/info.php:27
+msgid ""
+"If you cannot get the print preview to show a barcode, or when you go to "
+"print the label it’s not formatted correctly. Your welcome to send a support "
+"email to us at <a href=\"https://woolabel.com/contact\">woolabel.com/"
+"contact</a>"
+msgstr ""
+
+#: inc/info.php:32
+msgid ""
+"Woolabel Premium Plugin is now available for purchase! Grab your copy today! "
+"Read what new features it has: <a href=\"https://woolabel.com/?"
+"affiliate_id=woolabel_free\">WOOLABEL PREMIUM</a>"
+msgstr ""
+
+#: inc/settings.php:59 inc/settings.php:500
+msgid "45*20mm (default)"
+msgstr ""
+
+#: inc/settings.php:63 inc/settings.php:501
+msgid "Preset 2"
+msgstr ""
+
+#: inc/settings.php:67 inc/settings.php:502
+msgid "Preset 3"
+msgstr ""
+
+#: inc/settings.php:143
+msgid "SKU"
+msgstr ""
+
+#: inc/settings.php:151
+msgid "Title"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Price"
+msgstr ""
+
+#: inc/settings.php:175
+msgid "Multiplier"
+msgstr ""
+
+#: inc/settings.php:183
+msgid "Label Width (mm)"
+msgstr ""
+
+#: inc/settings.php:191
+msgid "Label Height (mm)"
+msgstr ""
+
+#: inc/settings.php:199
+msgid "Bar Width (px)"
+msgstr ""
+
+#: inc/settings.php:207
+msgid "Bar Height (px)"
+msgstr ""
+
+#: inc/settings.php:215
+msgid "Title Font Size (px)"
+msgstr ""
+
+#: inc/settings.php:223
+msgid "Code Font Size (px)"
+msgstr ""
+
+#: inc/settings.php:231
+msgid "Price Font Size (px)"
+msgstr ""
+
+#: inc/settings.php:239
+msgid "Horizontal Offset (px)"
+msgstr ""
+
+#: inc/settings.php:247
+msgid "Vertical Offset (px)"
+msgstr ""
+
+#: inc/settings.php:255
+msgid "Barcode Type"
+msgstr ""
+
+#: inc/settings.php:263
+msgid "Preview SKU number"
+msgstr ""
+
+#: inc/settings.php:275
+msgid "Settings for Generating:"
+msgstr ""
+
+#: inc/settings.php:280
+msgid ""
+"Note: Not all barcodes allow letters. If you have a blank barcode at the "
+"print preview stage, try changing barcode type to another one (we recommend "
+"code 128) or remove letters from your products SKU by using an <a href="
+"\"https://booster.io/features/woocommerce-sku/\">Autogenerate SKU plugin</a> "
+"like Booster for example."
+msgstr ""
+
+#: inc/settings.php:283
+msgid "Label Configuration:"
+msgstr ""
+
+#: inc/settings.php:317
+#, php-format
+msgid ""
+"You can change currency symbol in WooLabel premium. <a href=\"%s\">Upgrade "
+"here..>>></a>"
+msgstr ""
+
+#: inc/settings.php:331
+msgid "Codabar"
+msgstr ""
+
+#: inc/settings.php:332
+msgid "EAN8 (8 numbers in SKU required)"
+msgstr ""
+
+#: inc/settings.php:333
+msgid "EAN13 (13 numbers in SKU required)"
+msgstr ""
+
+#: inc/settings.php:334
+msgid "Standard 2 of 5 (industrial)"
+msgstr ""
+
+#: inc/settings.php:335
+msgid "Interleaved 2 of 5"
+msgstr ""
+
+#: inc/settings.php:336
+msgid "Code 39"
+msgstr ""
+
+#: inc/settings.php:337
+msgid "Code 93"
+msgstr ""
+
+#: inc/settings.php:338
+msgid "Code 128 (Default)"
+msgstr ""
+
+#: inc/settings.php:339
+msgid "MSI"
+msgstr ""
+
+#: inc/settings.php:340
+msgid "Datamatrix (ASCII + extended)"
+msgstr ""
+
+#: inc/settings.php:342
+msgid "QR code is available in WooLabel Premium"
+msgstr ""
+
+#: inc/settings.php:356
+msgid "(based on multiplier value)"
+msgstr ""
+
+#: inc/settings.php:366
+msgid ""
+"You can use the DPI value of your printer as a start point and adjust after "
+"the other settings are set"
+msgstr ""
+
+#: inc/settings.php:398
+msgid "Offset from left side (leave empty for auto align)"
+msgstr ""
+
+#: inc/settings.php:402
+msgid "Offset from top side (leave empty for auto align)"
+msgstr ""
+
+#: inc/settings.php:511
+msgid "Woolabel Settings Page"
+msgstr ""
+
+#: inc/settings.php:516
+msgid "Save Changes"
+msgstr ""
+
+#: inc/settings.php:521
+msgid "Choose Preset:"
+msgstr ""
+
+#: inc/settings.php:525
+msgid "Enter custom name"
+msgstr ""
+
+#: inc/settings.php:526
+msgid "Save and Add as Preset"
+msgstr ""
+
+#: inc/settings.php:527
+msgid "Load"
+msgstr ""
+
+#: inc/settings.php:532
+#, php-format
+msgid "Need Help? Contact us here. <a href=\"%s\">Woolabel.com/contact</a>"
+msgstr ""
+
+#: inc/settings.php:538
+msgid "Live Preview"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:37
+msgid ""
+"You can't activate the free version of WooCommerce Product Barcode Label "
+"Printing while you are using the premium one. Visit <a href=\"https://"
+"woolabel.com/?affiliate_id=woolabel_free\">woolabel.com</a>"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:158
+msgid ""
+"Please submit a ticket if you cannot get Woolabel plugin working for you."
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:158
+msgid "Get Support"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:161
+msgid "Click here to try our premium demo."
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:161
+#: woo-product-barcode-label-printing.php:200
+#: woo-product-barcode-label-printing.php:203
+msgid "FREE Premium Demo"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:164
+msgid "Get Premium."
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:164
+#: woo-product-barcode-label-printing.php:209
+#: woo-product-barcode-label-printing.php:212
+msgid "Get Premium"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:177
+msgid "Woolabel"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:180
+msgid "Settings"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:183
+msgid "Information"
+msgstr ""
+
+#: woo-product-barcode-label-printing.php:191
+#: woo-product-barcode-label-printing.php:194
+msgid "Support Page"
+msgstr ""
